@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Global Logic Test Automation]">
+  <listeners>
+    <listener class-name="com.discovery.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Global Logic Home Task : Discovery Flow(failed)">
+    <classes>
+      <class name="com.discovery.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="discoveryTestSenario"/>
+        </methods>
+      </class> <!-- com.discovery.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Global Logic Home Task : Discovery Flow(failed) -->
+</suite> <!-- Failed suite [Global Logic Test Automation] -->
